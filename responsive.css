@@ -1,57 +1,108 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .main {
-    width: 50%;
+  /*ryan*/
+.container {
+	width: 50%;
+  }  
+  /*end ryan*/
+  /*pijar*/
+.contents-container {
+	width: 50%;
   }
-  
-  .top-wrapper h1 {
-    font-size: 32px;
+
+.content {
+  	width: 50%;
   }
-  
-  .heading h2 {
-    font-size: 20px;
+
+  .poster-box {
+  	width: 50%;
   }
+
+  .poster {
+  	width: 50%;
+  }
+
+  .title {
+  	text-align: center;
+  }
+  /*end pijar*/
+  /*oki*/
+  .contents-item {
+  	width: 50%;
+  }
+  /*end oki*/
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .main {
-    width: 100%;
+  /*ryan*/
+ .container {
+  width: 100%;
+  }  
+
+  .logo {
+  	width: 170px;
+  	height: 170px;
+  	margin: 0 100px 20px 100px;
   }
-  
-  footer {
-    text-align: center;
+
+  .container p {
+  	padding-left: 1.8em;
+  	width: 100%;
+  	text-align: justify;
   }
-  
-  .btn {
-    width: 100%;
+
+  .container span {
+  	padding-left: 145px;
   }
-  
-  .facebook {
-    margin-bottom: 10px;
+
+  /*end ryan*/
+  /*pijar*/
+  .contents-container {
+  width: 100%;
   }
-  
-  .top-wrapper {
-    text-align: left;
+
+  .content {
+  	width: 100%;
   }
-  
-  /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
+
+  .poster-box {
+  	width: 100%;
   }
-  
-  /* Tambahkan CSS untuk menu-icon */
+
+  .poster {
+  	width: 100%;
+  	padding-right: 30px;
+  }
+
+  .title {
+  	width: 100%;
+  	text-align: center;
+  }
+  /*end pijar*/
+  /*oki*/
+  .contents {
+  	padding-left: 90px;
+  	width: 100%;
+  }
+
+  .section-title {
+  	width: 80%;
+  	text-align: center;
+  }
+  .contents-item {
+  	width: 80%;
+  	margin-bottom: 100px;
+  }
+
   img {
-    display: block;
+  	width: 100%;
+  	padding-left: 14px;
+  	padding-top: 12px;
   }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
+
+  .contents-item p {
+  	width: 100%;
   }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
+  /*end oki*/
 }
