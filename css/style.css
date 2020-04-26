@@ -1,0 +1,39 @@
+html, body {
+	padding: 0px;
+	margin:0px;
+}
+body{
+	background-color: #ddd;
+}
+.container{
+	width: 880px;
+	margin: 50px auto;
+	padding: 20px;
+  
+}
+
+img{
+  float: left;
+  width: 170px;
+  border-radius: 100px;
+  margin :0 9px 3px 0;
+  margin-right: 20px;
+}
+h3{
+  font-size: 30px;
+  color: 
+}
+
+p{
+  text-align: justify;
+}
+span{
+  font-size: 40px;
+}
+
+@media(max-width: 670px){
+.container{
+  width: 70%;
+     
+}  
+}
