@@ -92,7 +92,7 @@ img {
 
 /*pijar*/
 .title {
-  margin-top: 50px;
+  margin-top: 60px;
   color: white;
 }
 .title h1 {
@@ -195,10 +195,12 @@ header {
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
-   z-index: 10;
-     top: 0;
+  z-index: 10;
+  top: 0;
 }
+
 .H20 {
+  background-color: white;
   width: 124px;
   height: 65px;
   /*margin-top: 20px;*/
