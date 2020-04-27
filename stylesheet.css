@@ -75,6 +75,7 @@ img {
   margin :0 9px 3px 0;
   margin-right: 20px;
   background-color: #ddd;
+  border: 1px solid black;
 }
 
 .container p {
@@ -155,3 +156,85 @@ img {
   text-align: center;
 }
 /*end pijar*/
+
+/*putri*/
+.footer {
+  margin-top: 50px;
+  background-color: #ffff;
+  color: #000;
+  height: 160px;
+  padding: 40px;
+}
+
+.footer-logo {
+  background-color: #ffff;
+  float: left;
+  font-size: 25px;
+}
+
+.footer-logo i {
+  background-color: #ffff;
+}
+
+.footer-list {
+  background-color: #ffff;
+  float: right;
+}
+
+.footer-list li {
+  background-color: #ffff;
+  padding-bottom: 20px
+}
+/*end putri*/
+
+/*ari*/
+header {
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+   z-index: 10;
+     top: 0;
+}
+.H20 {
+  width: 124px;
+  height: 65px;
+  /*margin-top: 20px;*/
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  margin-right: -25px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  background-color: rgba(34, 49, 52, 0.9);
+  line-height: 45px;
+  padding: 10px 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.menu-icon {
+  background-color: rgba(34, 49, 52, 0.9);
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+/*end ari*/
